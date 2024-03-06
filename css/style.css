@@ -1,0 +1,18 @@
+.list .studio {
+    color: rgba(33, 150, 243, 1);
+}
+.list a {
+    color: rgba(33, 33, 33, 1);
+ }
+.list .email {
+    color: rgba(33, 150, 243, 1);
+}
+.footer .adress {
+    color: rgba(255, 255, 255, 1);
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+.hero .big {
+    font-size: 44px;
+}
