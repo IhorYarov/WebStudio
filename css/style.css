@@ -1,19 +1,137 @@
 /* мій стиль сайту */
-.list .studio {
-    color: rgba(33, 150, 243, 1);
-}
-.list a {
-    color: rgba(33, 33, 33, 1);
- }
-.list .email {
-    color: rgba(33, 150, 243, 1);
-}
-.footer .adress {
-    color: rgba(255, 255, 255, 1);
-}
-.footer a {
-    color: rgba(255, 255, 255, 0.6);
+ :root {
+    --titw1: "Raleway",
+                  sans-serif;
+                  --span1:"Raleway",
+                    sans-serif;
+                    --list1:"Roboto",
+                        sans-serif;
 }
 .hero .big {
-    font-size: 44px;
+    font-family: var(--list1);
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        background: rgba(255, 255, 255, 1);
+}
+.titw1,
+.Webst2 {
+    font-family: var(--titw1);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30.52px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: rgba(33, 150, 243, 1);
+}
+.span1,
+.span2 {
+  font-family: var(--span1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+}
+.list1 a{
+    font-family: var(--list1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+}
+.list1 .studio{
+    font-family: var(--list1);
+        font-weight: 100;
+            font-style: normal;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16.41px;
+            letter-spacing: 0.02em;
+            text-align: left;
+    color: rgba(33, 150, 243, 1);;
+}
+.butt1 {
+    font-family: var(--list1);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+}
+.list2 h1{
+    font-family: var(--list1);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: rgba(33, 33, 33, 1);
+}
+.list2 p {
+    font-family: var(--list1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+}
+.phtext1 {
+    font-family: var(--list1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+}
+.phtext2 {
+    font-family: var(--list1);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.19px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(33, 33, 33, 1);
+}
+.photo2 p {
+    font-family: var(--list1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+}
+.photo2 h3 {
+        font-family: var(--list1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(33, 33, 33, 1);
+}
+footer li {
+    font-family: var(--list1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+    color: rgba(255, 255, 255, 1);
 }
