@@ -1,0 +1,183 @@
+/* мій стиль сайту */
+:root {
+    --titw1: "Raleway",
+        sans-serif;
+    --span1: "Raleway",
+        sans-serif;
+    --list1: "Roboto",
+        sans-serif;
+}
+.titw1,
+.Webst2 {
+    font-family: var(--titw1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(33, 150, 243, 1);
+}
+
+.span1 {
+    font-family: var(--span1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+}
+
+.span2 {
+    font-family: var(--span1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: white;
+}
+
+.list1 a {
+    font-family: var(--list1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+}
+
+.list1 {
+    color: white;
+}
+
+.list1 .portfolio {
+    font-family: var(--list1);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 150, 243, 1);
+}
+
+.butt1 {
+    font-family: var(--list1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.photo2 p {
+font-family: var(--list1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);;
+}
+
+.photo2 h3 {
+font-family: var(--list1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);;
+}
+
+footer li {
+    font-family: var(--list1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+    color: rgba(255, 255, 255, 1);
+}
+
+.team2 {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+footer {
+    background-color: rgba(47, 48, 58, 1);
+    color: rgba(47, 48, 58, 1);
+}
+
+.photo2 {
+    color: rgba(245, 244, 250, 1);
+}
+
+.list1 a:hover {
+    color: rgba(33, 150, 243, 1);
+}
+.butt1 {
+        width: 73px;
+            height: 38px;
+            top: 174px;
+            left: 512px;
+            gap: 0px;
+            border-radius: 4px;
+            border-color: rgba(33, 150, 243, 1);
+            opacity: 0px;
+            background-color: rgba(33, 150, 243, 1);
+}
+.butt1 {
+    font-family: var(--list1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
+.butt2 {
+    width: 125px;
+        height: 38px;
+        top: 174px;
+        left: 593px;
+        gap: 0px;
+        border-radius: 4px;
+        border-color: rgba(245, 244, 250, 1);
+        opacity: 0px;
+        background-color: rgba(245, 244, 250, 1);
+}
+.butt2 {
+    font-family: var(--list1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(33, 33, 33, 1);
+}
+.photo2 img {
+        width: 370px;
+        height: 294px;
+}
+.box {
+    width: 370px;
+    height: 404px;
+    top: 262px;
+    left: 215px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    background-color: rgba(255, 255, 255, 1);;
+}
