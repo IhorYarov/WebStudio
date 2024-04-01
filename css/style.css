@@ -8,7 +8,12 @@
                         sans-serif;
 }
 .hero {
-    background-color: rgba(47, 48, 58, 1); 
+        width: 1600px;
+        height: 600px;
+        top: 80px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: rgba(47, 48, 58, 1); 
 }
 .hero .big {
     font-family: var(--list1);
@@ -80,6 +85,7 @@
         letter-spacing: 0.06em;
         text-align: center;
         color: rgba(255, 255, 255, 1);
+        
 }
 .photo1 {
     color: white;
@@ -162,7 +168,8 @@ footer {
 .photo2 {
     color:rgba(245, 244, 250, 1);
 }
-.list1 a:hover {
+.list1 a:hover,
+a:focus {
     color: rgba(33, 150, 243, 1);
 }
 .box1 {
