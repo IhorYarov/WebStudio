@@ -92,8 +92,8 @@
   color: rgba(33, 33, 33, 1);
   width: 322px;
   height: 36px;
-  padding-top: 576px;
-  padding-left: 639px;
+  border-top: 576px;
+  border-left: 639px;
   gap: 0px;
   opacity: 0px;
 }
