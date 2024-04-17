@@ -16,12 +16,17 @@
   font-family: var(--list1);
   font-size: 44px;
   font-weight: 900;
+  font-style: normal;
   line-height: 60px;
-  letter-spacing: 0.06em;
+  letter-spacing: 2.64px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   margin-top: 280px;
   margin-left: 452px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 .titw1,
 .Webst2 {
@@ -82,7 +87,7 @@
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
-  text-align: center;                                                      red
+  text-align: center;
   color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   border-color: rgba(33, 150, 243, 1);
