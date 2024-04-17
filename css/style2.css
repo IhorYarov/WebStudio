@@ -140,6 +140,7 @@ footer {
   opacity: 0px;
   background-color: rgba(33, 150, 243, 1);
 }
+
 .butt1 {
   font-family: var(--list1);
   font-size: 16px;
@@ -171,6 +172,8 @@ footer {
 .photo2 img {
   width: 370px;
   height: 294px;
+  display: flex;
+  justify-content: space-between;
 }
 .box1 {
   width: 370px;
