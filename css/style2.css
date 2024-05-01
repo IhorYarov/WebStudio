@@ -178,8 +178,6 @@ footer {
 .box1 {
   width: 370px;
   height: 404px;
-  margin-top: 262px;
-  margin-left: 215px;
   gap: 0px;
   opacity: 0px;
   border: 1px solid rgba(238, 238, 238, 1);
@@ -188,14 +186,16 @@ footer {
 .box2 {
   width: 370px;
   height: 404px;
-  margin-top: 262px;
-  margin-left: 615px;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
   border: 1px solid rgba(238, 238, 238, 1);
   background-color: rgba(255, 255, 255, 1);
 }
-.container {
+.container1 {
   display: flex;
+  justify-content: center;
+}
+.container1 li {
+  margin-left: 30px;
 }
