@@ -209,16 +209,13 @@ a:focus {
 .container {
   display: flex;
 }
-/* .container1 {
+.container0 {
   display: flex;
-  justify-content: end;
-} */
-/* .container1 a {
-  margin-top: 32px;
-  margin-left: 344px;
-  margin-right: 50px;
-  margin-bottom: 32px;
-} */
+  justify-items: flex-end;
+}
+.list1 li {
+  margin-left: 30px;
+}
 .container3 {
   display: flex;
   justify-content: center;
@@ -232,4 +229,7 @@ a:focus {
 }
 .container4 li {
   margin-left: 30px;
+}
+.list1 {
+  display: flex;
 }

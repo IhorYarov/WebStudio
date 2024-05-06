@@ -192,10 +192,18 @@ footer {
   border: 1px solid rgba(238, 238, 238, 1);
   background-color: rgba(255, 255, 255, 1);
 }
-.container1 {
+.container1,
+.container2,
+.container3 {
   display: flex;
   justify-content: center;
 }
 .container1 li {
+  margin-left: 30px;
+}
+.container2 li {
+  margin-left: 30px;
+}
+.container3 li {
   margin-left: 30px;
 }
