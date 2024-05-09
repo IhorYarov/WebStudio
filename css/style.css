@@ -21,11 +21,6 @@
   letter-spacing: 2.64px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-top: 280px;
-  margin-left: 452px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-transform: uppercase;
 }
 .titw1,
@@ -81,7 +76,7 @@
   text-align: left;
   color: rgba(33, 150, 243, 1);
 }
-.butt1 {
+.hero .butt1 {
   font-family: var(--list1);
   font-size: 16px;
   font-weight: 700;
@@ -91,8 +86,6 @@
   color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   border-color: rgba(33, 150, 243, 1);
-  margin-left: 692px;
-  margin-top: 430px;
 }
 .photo1 {
   color: white;
@@ -176,7 +169,10 @@ footer a {
 }
 .container5 {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+}
+.container5 li {
+  margin-left: 215px;
 }
 footer {
   background-color: rgba(47, 48, 58, 1);
@@ -232,4 +228,8 @@ a:focus {
 }
 .list1 {
   display: flex;
+}
+.container1bef {
+  display: flex;
+  justify-content: center;
 }
