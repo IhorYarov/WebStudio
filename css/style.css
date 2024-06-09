@@ -4,9 +4,14 @@
   --span1: "Raleway", sans-serif;
   --list1: "Roboto", sans-serif;
 }
+.container12 {
+  display: flex;
+  justify-content: flex-end;
+}
 .hero {
   width: 1600px;
   height: 600px;
+  flex-shrink: 0;
   top: 80px;
   gap: 0px;
   opacity: 0px;
@@ -21,6 +26,8 @@
   letter-spacing: 2.64px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
   /* text-transform: uppercase; */
 }
 .titw1,
@@ -210,7 +217,7 @@ a:focus {
 }
 .container0 {
   display: flex;
-  justify-items: flex-end;
+  justify-content: flex-start;
 }
 .list1 li {
   margin-left: 30px;
