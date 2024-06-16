@@ -4,9 +4,8 @@
   --span1: "Raleway", sans-serif;
   --list1: "Roboto", sans-serif;
 }
-.container12 {
-  display: flex;
-  justify-content: flex-end;
+.contacts {
+  margin-right: 900px;
 }
 .hero {
   width: 1600px;
