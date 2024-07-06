@@ -14,7 +14,6 @@
   text-align: left;
   color: rgba(33, 150, 243, 1);
 }
-
 .span1 {
   font-family: var(--span1);
   font-size: 26px;
@@ -149,8 +148,7 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.list1
-.butt2 {
+.list1 .butt2 {
   width: 125px;
   height: 38px;
   top: 174px;
