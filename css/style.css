@@ -15,6 +15,11 @@
   gap: 0px;
   opacity: 0px;
   background: url(./../images/blog/Backgrounds/Bg_1.jpg);
+  margin-right: auto;
+  margin-left: auto;
+}
+.butt1 {
+  margin: 0;
 }
 .hero .big {
   font-family: var(--list1);
@@ -92,8 +97,6 @@
   color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   border-color: rgba(33, 150, 243, 1);
-  display: grid;
-  justify-content: center;
 }
 .hero {
   text-align: center;
