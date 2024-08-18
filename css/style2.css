@@ -147,7 +147,7 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.list1 .butt2 {
+.butt2 {
   width: 125px;
   height: 38px;
   top: 174px;
@@ -171,7 +171,9 @@ footer {
   width: 370px;
   height: 294px;
 }
-.box1 {
+.box1,
+.box2,
+.box3 {
   width: 370px;
   height: 404px;
   gap: 0px;
@@ -179,24 +181,31 @@ footer {
   border: 1px solid rgba(238, 238, 238, 1);
   background-color: rgba(255, 255, 255, 1);
 }
-.box2 {
-  width: 370px;
-  height: 404px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid rgba(238, 238, 238, 1);
-  background-color: rgba(255, 255, 255, 1);
-}
-.team2 {
+.container1 {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-gap: 30px;
-}
-/* .photo2 li {
-  display: grid;
-  grid-template-columns: 370px;
   grid-template-rows: repeat(3, 404px);
+  grid-template-columns: repeat(3, 370px);
   grid-gap: 30px;
-} */
+  grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
+  width: 1170px;
+  height: 1360px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.container0 {
+  display: flex;
+  justify-content: flex-start;
+}
+.list1 .contacts {
+  margin-right: 900px;
+}
+.list1 li {
+  margin-left: 30px;
+}
+.container5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container5 li {
+  margin-left: 215px;
+}
