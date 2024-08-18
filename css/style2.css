@@ -188,9 +188,15 @@ footer {
   border: 1px solid rgba(238, 238, 238, 1);
   background-color: rgba(255, 255, 255, 1);
 }
-.photo2 li {
+.team2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+/* .photo2 li {
   display: grid;
   grid-template-columns: 370px;
   grid-template-rows: repeat(3, 404px);
   grid-gap: 30px;
-}
+} */
